@@ -5,7 +5,7 @@ const Home = () => {
 	const [color, setColor] = useState("red");
 	return (
 		<div className= "traffic-light text-align:center">
-            <span onClick={() => setColor("red")}
+			<span onClick={() => setColor("red")}
 			className={"light red" + (color === "red" ? " glow" : "")}></span>
 
 			<span onClick={() => setColor("yellow")}
